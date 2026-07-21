@@ -4,9 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JCDA | Projects-Gallery</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
 </head>
 <body>
+
+<!-- Modal overlay for enlarged gallery images -->
+    <div id="imageModal" class="image-modal" aria-hidden="true">
+<!-- Close button for the modal popup -->
+        <span class="image-modal-close" aria-label="Close image">&times;</span>
+<!-- The image element that will display the selected photo -->
+        <img id="modalImage" src="" alt="Expanded gallery image">
+    </div>
+
+
+
+<main>
+    <section class="gallery-intro">
+    <h1>Our Projects</h1>
+    <h3>Creating Lasting Impact Through Community Development</h3>
+    </section>
+
+
+    <div class="event-controls">
+        <label for="categoryFilter">Filter By Category</label>
+        <select id="categoryFilter" aria-label="Filter gallery by category">
+            <option value="all">All Items</option>
+            <option value="education">Education</option>
+            <option value="community">Community</option>
+            <option value="environment">Environment</option>
+        </select>
+
+    </div>
+
+
+    <div class="g-row">
+    <div class="g-column gallery-item education">
+    <div class="gallery"> <!--reponsive-->
+        <!--gallery--><div class="gallery-card">
+            <a href="#" class="gallery-link" data-full="image/education1.jpg" data-alt="Contructing building">
+                <img src="image/education1.jpg" alt="Contructing building" width="400" height="200">
+            </a>
+        </div>
+        <div class="gcard-text">Summer school program with volunteers.<p>2018</p></div>
+    
+    </div>
+    </div>
+    <div class="g-column gallery-item education">
+    <div class="gallery"> <!--reponsive-->
+        <!--gallery--><div class="gallery-card">
+            <a href="#" class="gallery-link" data-full="image/education2.jpg" data-alt="Children at school">
+                <img src="image/education2.jpg" alt="Children at school" width="400" height="200">
+            </a>
+        </div>
+        <div class="gcard-text">After school home work program.<p>2019</p></div>
+    
+    </div>
+    </div>
+    <div class="g-column gallery-item education">
+    <div class="gallery"> <!--reponsive-->
+        <!--gallery--><div class="gallery-card">
+            <a href="#" class="gallery-link" data-full="image/education3.jpg" data-alt="People in library">
+                <img src="image/education3.jpg" alt="People in library" width="400" height="200">
+            </a>
+        </div>
+        <div class="gcard-text">Donation of school library<p>2020</p></div>
+    
+    </div>
+    </div>
+
+     <div class="g-column gallery-item community">
+    <div class="gallery"> <!--reponsive-->
+        <!--gallery--><div class="gallery-card">
+            <a href="#" class="gallery-link" data-full="image/community1.jpg" data-alt="Community clean-up event">
+                <img src="image/community1.jpg" alt="Contructing building" width="400" height="200">
+            </a>
+        </div>
+        <div class="gcard-text">Community clean-up event.<p>2020</p></div>
+    
+    </div>
+    </div>
+    <div class="g-column gallery-item community">
+    <div class="gallery"> <!--reponsive-->
+        <!--gallery--><div class="gallery-card">
+            <a href="#" class="gallery-link" data-full="image/community2.jpg" data-alt="People in community">
+                <img src="image/community2.jpg" alt="People in community" width="400" height="200">
+            </a>
+        </div>
+        <div class="gcard-text">Neighborhood beautification project.<p>2021</p></div>
+    
+    </div>
+    </div>
+    <div class="g-column gallery-item community">
+    <div class="gallery"> <!--reponsive-->
+        <!--gallery--><div class="gallery-card">
+            <a href="#" class="gallery-link" data-full="image/community4.jpg" data-alt="People painting playdround">
+                <img src="image/community4.jpg" alt="People painting playdround" width="400" height="200">
+            </a>
+        </div>
+        <div class="gcard-text">Playground renovation.<p>2022</p></div>
+    
+    </div>
+    </div>
+    </div>
+    <div class="gallery-intro">
+        <h3>Together We Build Stronger Communities</h3>
+        <p>
+            Every programme reflects our commitment to creating healthier, more educated, and more
+            resilient communities where everyone has the opportunity to thrive.
+        </p>
+    </div>
+
+    <section class="features">
+
+        <article>
+
+            <h2>What We've Accomplished</h2>
+
+                <div class="serve-list">
+
+                     <ul>
+
+                        <li>
+                            <img src="image/tree.png" alt="Tree icon" class="list-img">
+                            <span><strong>100+</strong> Trees Planted</span>
+                        </li>
+
+                        <li>
+                            <img src="image/volunteer.png" alt="Volunteer icon" class="list-img">
+                            <span><strong>1200+</strong> Volunteers</span>
+                        </li>
+
+                        <li>
+                            <img src="image/partner.png" alt="Partner icon" class="list-img">
+                            <span><strong>150+</strong> Partner Organizations</span>
+                        </li>
+
+                        <li>
+                            <img src="image/community.png" alt="Community icon" class="list-img">
+                            <span><strong>30+</strong> Communities Impacted</span>
+                        </li>
+
+                        <li>
+                            <img src="image/program.png" alt="Program icon" class="list-img">
+                            <span><strong>20+</strong> Successful Programs</span>
+                        </li>
+
+                        <li>
+                            <img src="image/children.png" alt="Children icon" class="list-img">
+                            <span><strong>300+</strong> Children Supported</span>
+                        </li>
+
+                    </ul>
+                    </div>
+           
+        </article>
+</main>
     <script src="js/script.js"></script>
 </body>
 </html>
