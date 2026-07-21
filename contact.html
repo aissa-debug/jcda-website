@@ -3,10 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JDCA | Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>JCDA | Contact</title>
+     <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
+
+    <main>
+
+        <section>
+            <div class="contact-hero">
+                <div class="contact-intro">    
+                <h1>Contact Us</h1>
+                <p style="font-size: 20px;">We'd Love to Hear From You</p>
+                <p>
+                    Whether you're interested in volunteering, partnering with us, supporting a community initiative, or 
+                    learning more about our programmes, our team is ready to assist you.
+                    Together, we can build stronger communities across Jamaica.
+                </p>
+                </div>
+            </div>
+        </section>
+
+            <section class="contact-form-section">
+
+                <h2>Send a Message</h2>
+<!--Creates form including feature to ensure teh required fields are filled before submission-->
+                <form class="contact-form">
+
+                    <fieldset>
+
+                        <legend>Contact Form</legend>
+
+                        <label for="name">Full Name: </label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email Address: </label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="10" required></textarea>
+
+                        <button type="submit">Submit</button>
+
+                    </fieldset>
+
+                </form>
+
+            </section>
+
+            <article class="contact-info-card">
+
+                <h2>Contact Information</h2>
+
+                <p><strong>Office Hours: </strong>8:00 AM - 5:00 PM</p>
+
+                <p><strong>Location: </strong>Kingston, Jamaica</p>
+
+                <p><strong>Phone: </strong>(876) 928-1234</p>
+
+                <p><strong>Email: </strong>info@jcda.com</p>
+
+            </article>
+
+            <section>
+    </main>
+
+
     <script src="js/script.js"></script>
+
 </body>
+
 </html>
